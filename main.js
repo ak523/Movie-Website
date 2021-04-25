@@ -45,7 +45,7 @@ window.onload = function () {
     fetch(`https://imdb8.p.rapidapi.com/title/get-popular-movies-by-genre?genre=%2Fchart%2Fpopular%2Fgenre%2F${facialGenre}`, {
         "method": "GET",
         "headers": {
-            "x-rapidapi-key": "9f57c530c6msh01f7547f483b552p1f352bjsn98ab0a172403",
+            "x-rapidapi-key": "enter your key",
             "x-rapidapi-host": "imdb8.p.rapidapi.com"
         }
     })
@@ -159,7 +159,7 @@ function getMovieList() {
     var request = new Request("https://imdb8.p.rapidapi.com/title/find?q=" + searchInputTxt, {
         "method": "GET",
         "headers": {
-            "x-rapidapi-key": "9f57c530c6msh01f7547f483b552p1f352bjsn98ab0a172403",
+            "x-rapidapi-key": "enter your key",
             "x-rapidapi-host": "imdb8.p.rapidapi.com"
         }
     });
